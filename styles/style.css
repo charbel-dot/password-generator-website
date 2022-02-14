@@ -133,3 +133,64 @@ body {
 .copy-btn:hover::after {
   content: "!";
 }
+
+/*
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100vw;
+    height: 40vh;
+    max-height: 100vh;
+    max-width: 90vw;
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .content-1 > input {
+    padding: 0.7rem;
+    margin: 0.5rem;
+    width: 250px;
+    height: auto;
+  }
+
+  .content-2 {
+    width: 330px;
+    margin-top: 10px;
+  }
+
+  .password-field {
+    margin-top: 20px;
+    width: 250px;
+    height: 100px;
+  }
+}
+*/
+
+/* Responsive section */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100vw;
+    height: 40vh;
+    max-height: 100vh;
+    max-width: 90vw;
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .content-1 > input {
+    padding: 0.7rem;
+    margin: 0.5rem;
+    width: 250px;
+    height: auto;
+  }
+
+  .content-2 {
+    width: 330px;
+    margin-top: 10px;
+  }
+
+  .password-field {
+    margin-top: 20px;
+    width: 250px;
+    height: 100px;
+  }
+}
